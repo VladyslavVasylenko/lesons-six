@@ -1,0 +1,191 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family:"Proxima Nova";
+  src: url(../fons/ProximaNova-Semibold/ProximaNova-Semibold.ttf);
+}
+
+.wrapper { 
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 56px;
+  margin-bottom: 66px;
+  background: #FFFFFF;
+}
+
+/*blok1*/
+.block1 { 
+  width: 220px;
+}
+
+.logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #1275b9;
+  margin-left: 80px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  margin: 17px 22px 16px 21px;
+  fill: #2a69a6;
+}
+
+.icon:hover {
+  fill: #fff;
+}
+
+.logo-efect:hover{
+  background-color: #2a69a6;
+}
+
+/*blok2*/
+.block2 { 
+  width: 220px;
+}
+
+.icon2 {
+  margin: 20px 18px 15px 20px;
+  fill: #2a69a6;
+}
+
+.icon2:hover {
+  fill: #fff;
+}
+
+/*blok3*/
+.block3 { 
+  width: 220px;
+}
+
+.icon3 {
+  margin: 20px 10px 15px 19px;
+  fill: #2a69a6;
+}
+
+.icon3:hover {
+  fill: #fff;
+}
+
+h2 {
+  color: #000000;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 22px;
+}
+
+p {
+  color: #9d9d9d;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.35px;
+}
+
+footer {
+  padding-top: 150px;
+  text-align: center;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 300;
+}
+
+a {
+  color: rgb(255, 123, 0);
+}
+
+/*Page Lesons 6 part 2*/
+.wrapper-list2 {
+  border: 10px solid #ffffff;
+  /*margin: 220px 250px;*/
+}
+
+.header {
+  color: #EB7E7F;
+  background-color: #4A4F56;
+  padding: 10px 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+/*Form*/
+.form-style {
+  background-color: #3B3F45;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.list {
+  margin: 0px 280px;
+  padding: 20px 20px;
+  list-style-type: none;
+}
+
+li {
+  padding: 10px;
+}
+
+.amount {
+  font-size: 20px;
+  color: #fff;
+}
+
+.about {
+  font-size: 16px;
+  color: #C6CBD6;
+}
+
+li:nth-child(odd) {
+  background-color: #88839E;
+}
+
+li:nth-child(even) {
+  background-color: #7A7593;
+}
+
+li:hover {
+  background-color: #625E77;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
+}
+
+input[type=checkbox]:checked ~ .amount,
+input[type=checkbox]:checked ~ .amount .about  {
+  text-decoration: line-through #7C7795;
+  color: #9993b8;
+}
+
+li:active {
+  background-color: #EB7E7F;
+}
+
+/*Footer*/
+.buttom {
+  padding: 20px 153px;
+  margin-bottom: 50px;
+  background-color: #4A4F56;
+  color: #EB7E7F;
+  font-size: 20px;
+  border: 0px;
+}
